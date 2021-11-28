@@ -1,7 +1,10 @@
 - clean: []
+- create:
+    - ~/.config/nvim
 - link:
     ~/.bashrc: bashrc
     ~/.bash_logout: bash_logout
     ~/.profile: profile
     ~/.gitconfig: gitconfig
+    ~/.config/nvim/init.vim: init.vim
 - shell: []

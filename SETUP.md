@@ -17,3 +17,20 @@ $ nano ~/.gitconfig_local
 	email = kim.laplume@protonmail.com
 ```
 
+# dev env
+### install neovim
+```bash
+$ wget --quiet https://github.com/neovim/neovim/releases/latest/download/nvim.appimage --output-document nvim
+$ chmod +x nvim
+$ sudo chown root:root nvim
+$ sudo mv nvim /usr/bin
+$ sudo ln -s /usr/bin/nvim /usr/bin/vim
+```
+### install vim-plug
+$ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+### run inside nvim
+:PlugInstall
+
+# ruby
+$ sudo apt install rbenv
