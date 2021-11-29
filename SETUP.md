@@ -34,3 +34,30 @@ $ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plu
 
 # ruby
 $ sudo apt install rbenv
+$ curl -fsSL https://github.com/rbenv/rbenv-installer/raw/main/bin/rbenv-doctor | bash
+$ mkdir -p "$(rbenv root)"/plugins
+$ git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
+$ rbenv install -l
+$ rbenv install 3.0.3
+$ rbenv global 3.0.3
+
+# ruby on rails prereq
+### install nvm
+$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash 
+### install node
+$ nvm install --lts
+$ nvm install 14.18.1
+### install python (for yarn)
+$ sudo apt install python2 
+### install yarn
+$ npm install -g yarn 
+$ yarn install --check-files
+### install foreman
+$ npm install -g foreman
+### install postgres
+$ sudo apt install postgresql postgresql-contrib libpq-dev
+### install ruby language server
+$ gem install solargraph
+
+# tmux
+$ sudo apt install tmux
