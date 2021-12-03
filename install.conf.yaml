@@ -7,4 +7,5 @@
     ~/.profile: profile
     ~/.gitconfig: gitconfig
     ~/.config/nvim/init.vim: init.vim
+    ~/.tmux.conf: tmux.conf
 - shell: []
