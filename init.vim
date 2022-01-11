@@ -21,6 +21,8 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'hrsh7th/nvim-compe'
 Plug 'hrsh7th/vim-vsnip'
+Plug 'ThePrimeagen/vim-be-good'
+Plug 'tpope/vim-rails'
 call plug#end()
 
 " autocmd vimenter * ++nested colorscheme gruvbox

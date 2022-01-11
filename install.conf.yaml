@@ -8,4 +8,5 @@
     ~/.gitconfig: gitconfig
     ~/.config/nvim/init.vim: init.vim
     ~/.tmux.conf: tmux.conf
+    ~/.ssh/config: ssh_config
 - shell: []
