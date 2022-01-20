@@ -23,6 +23,9 @@ Plug 'hrsh7th/nvim-compe'
 Plug 'hrsh7th/vim-vsnip'
 Plug 'ThePrimeagen/vim-be-good'
 Plug 'tpope/vim-rails'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 " autocmd vimenter * ++nested colorscheme gruvbox
