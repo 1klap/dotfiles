@@ -32,8 +32,9 @@ $ sudo mv nvim /usr/bin
 $ sudo ln -s /usr/bin/nvim /usr/bin/vim
 ```
 ### install vim-plug
+```bash
 $ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'```
 ### run inside nvim
 :PlugInstall
 
@@ -63,7 +64,7 @@ $ nvm install 14.18.1
 $ npm install -g yarn 
 $ yarn install --check-files
 ```
-### install forema (webpacker route)
+### install foreman (webpacker route)
 `$ npm install -g foreman`
 ### install postgres
 `$ sudo apt install postgresql postgresql-contrib libpq-dev`
